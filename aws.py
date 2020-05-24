@@ -14,7 +14,7 @@ def snapshots():
 
 @snapshots.command('list')
 @click.option('--project', default=None, help="Only snapshots for project(tag instanse:<name>)")
-def list_volumes(project):
+def list_snapshots(project):
     "List of Snapshots"
 
     instances = []
